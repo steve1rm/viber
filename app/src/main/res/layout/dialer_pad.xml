@@ -4,47 +4,19 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:rowCount="2"
-    android:columnCount="4">
+    android:columnCount="3">
 
-    <ImageView
-        android:id="@+id/ivHold"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:padding="16dp"
-        android:src="@drawable/ic_pause_circle_outline_white_48dp"
-        android:layout_columnWeight="1"/>
+    <include layout="@layout/pause"/>
 
-    <ImageView
-        android:id="@+id/ivMute"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:padding="16dp"
-        android:src="@drawable/ic_mic_off_white_48dp"
-        android:layout_columnWeight="1"/>
+    <include layout="@layout/mute"/>
 
-    <ImageView
-        android:id="@+id/ivSpeaker"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:padding="16dp"
-        android:src="@drawable/ic_volume_up_white_48dp"
-        android:layout_columnWeight="1"/>
+    <include layout="@layout/speaker"/>
 
-    <ImageView
-        android:id="@+id/ivSwitch"
-        android:layout_height="wrap_content"
+    <include layout="@layout/switchgsm"
         android:layout_width="wrap_content"
-        android:layout_columnSpan="2"
-        android:padding="16dp"
-        android:src="@drawable/ic_phone_white_48dp"
-        android:layout_columnWeight="1"/>
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"/>
 
-    <ImageView
-        android:id="@+id/ivContacts"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_columnSpan="1"
-        android:padding="16dp"
-        android:src="@drawable/ic_people_white_48dp"
-        android:layout_columnWeight="1"/>
-</GridLayout>
+    <include layout="@layout/contacts" />
+
+ </GridLayout>
