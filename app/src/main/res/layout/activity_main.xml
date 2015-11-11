@@ -5,4 +5,8 @@
     android:layout_height="match_parent"
     tools:context="com.ssd.viber.MainActivity">
 
+    <include
+        layout="@layout/end_call"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
