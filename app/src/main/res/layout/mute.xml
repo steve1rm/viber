@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:paddingBottom="8dp">
+    android:paddingBottom="8dp"
+    android:background="@drawable/border">
 
     <ImageView
         android:id="@+id/ivMute"
@@ -19,6 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Mute"
         android:textSize="12sp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-condensed"
         android:layout_gravity="bottom|center"/>
 </FrameLayout>
