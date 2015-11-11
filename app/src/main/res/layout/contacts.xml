@@ -9,10 +9,9 @@
         android:id="@+id/ivContacts"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:layout_columnSpan="1"
         android:padding="16dp"
         android:src="@drawable/ic_people_white_48dp"
-        android:layout_columnWeight="1"/>
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/tvHold"

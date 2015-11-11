@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@android:color/holo_blue_light"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:rowCount="2"
-    android:columnCount="3">
+    android:background="@android:color/holo_blue_light">
 
-    <include layout="@layout/pause"/>
+    <TableRow>
+        <include
+            layout="@layout/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    <include layout="@layout/mute"/>
+        <include
+            layout="@layout/mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    <include layout="@layout/speaker"/>
+        <include
+            layout="@layout/speaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
 
-    <include layout="@layout/switchgsm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_columnSpan="2"/>
+    <TableRow>
+        <include
+            layout="@layout/switchgsm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
 
-    <include layout="@layout/contacts" />
+        <include
+            layout="@layout/contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
 
- </GridLayout>
+</TableLayout>
