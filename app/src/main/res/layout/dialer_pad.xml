@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/outer_border"
-    android:alpha="0.9">
+    android:alpha="10">
 
     <TableRow>
         <include
