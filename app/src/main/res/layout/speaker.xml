@@ -10,7 +10,12 @@
         android:id="@+id/ivSpeaker"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:padding="16dp"
+        android:paddingRight="24dp"
+        android:paddingEnd="24dp"
+        android:paddingLeft="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="16dp"
         android:src="@drawable/ic_volume_up_white_48dp"
         android:layout_gravity="center"/>
 
@@ -19,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Speaker"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:fontFamily="sans-serif-condensed"
         android:textColor="@android:color/white"
         android:layout_gravity="bottom|center"/>

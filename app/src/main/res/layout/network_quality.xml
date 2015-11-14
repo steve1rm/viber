@@ -4,12 +4,12 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/border"
-    android:padding="8dp">
+    android:padding="12dp">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="6dp"
+        android:padding="4dp"
         android:src="@drawable/ic_call_white_24dp"
         android:background="@drawable/call_image"/>
 
@@ -17,19 +17,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:layout_marginLeft="46dp"
-        android:layout_marginStart="46dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
         android:text="Network Quality: Excellent"
         android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"
-        android:textSize="16sp" />
+        android:textSize="14sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginLeft="46dp"
-        android:layout_marginStart="46dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
         android:fontFamily="sans-serif-light"
         android:text="Expect excellent call quality"
         android:textSize="12sp"

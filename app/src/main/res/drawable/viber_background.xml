@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/viberbackground"/>
+    <item android:drawable="@drawable/background_viber"/>
     <item
         android:drawable="@drawable/inner_shape"
         android:top="20dp"
