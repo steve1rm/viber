@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="00:18"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Frano John"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mobile 416 555 0123"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#b3a66c6c"
+        android:fontFamily="sans-serif-light"/>
+</LinearLayout>

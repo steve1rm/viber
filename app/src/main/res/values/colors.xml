@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorViberStart">#1a237e</color>
+    <color name="colorViberEnd">#993F51B5</color>
+    <color name="colorStart">#443F51B5</color>
 </resources>
