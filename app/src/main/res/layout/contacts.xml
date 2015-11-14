@@ -20,8 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Contacts"
         android:textSize="12sp"
-        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
         android:layout_gravity="bottom|center"/>
-
 </FrameLayout>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
+        <!-- Create a rectangle shape will expose the edges to make the borders -->
         <shape android:shape="rectangle">
             <stroke android:color="@color/colorPrimaryDark"/>
         </shape>
     </item>
 
+    <!-- Reduce the top, right, left and just display the bottom -->
     <item android:top="-3dp" android:right="-3dp" android:left="-3dp">
+        <!-- This will give us the borders -->
         <shape>
             <solid android:color="@android:color/transparent"/>
             <stroke android:width="2dp" android:color="@color/colorPrimaryDark"/>
