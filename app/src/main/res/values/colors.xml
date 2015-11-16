@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!-- 900 red -->
+    <color name="endCallStartColor">#B71C1C</color>
+    <!-- 500 red -->
+    <color name="endCallEndColor">#F44336</color>
+    <!-- 900 purple -->
+    <color name="endCallBorderColor">#4A148C</color>
 </resources>
