@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="network_quantity_margin_top">70dp</dimen>
+</resources>
