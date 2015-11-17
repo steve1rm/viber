@@ -7,7 +7,7 @@
     android:background="@drawable/bottom_left_border">
 
     <ImageView
-        android:id="@+id/ivHold"
+        android:id="@+id/ivPause"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:paddingRight="24dp"
@@ -20,7 +20,7 @@
         android:layout_gravity="center"/>
 
     <TextView
-        android:id="@+id/tvHold"
+        android:id="@+id/tvPause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pause"

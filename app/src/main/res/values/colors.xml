@@ -8,4 +8,5 @@
     <color name="colorStart">#991a237e</color>
     <color name="colorDialer">#993F51B5</color>
     <color name="colorBorders">#1a237e</color>
+    <color name="colorChecked">#66bdbdbd</color>
 </resources>

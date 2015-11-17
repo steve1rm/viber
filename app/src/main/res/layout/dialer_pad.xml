@@ -2,14 +2,13 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/outer_border"
-    android:alpha="0.9">
+    android:background="@drawable/outer_border">
 
     <TableRow>
         <include
             layout="@layout/pause"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <include
             layout="@layout/mute"
@@ -30,6 +29,7 @@
             android:layout_weight="1"/>
 
         <include
+            android:id="@+id/tbContacts"
             layout="@layout/contacts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
