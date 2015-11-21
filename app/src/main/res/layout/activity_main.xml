@@ -5,5 +5,4 @@
     android:layout_height="match_parent"
     tools:context="com.ssd.viber.MainActivity"
     android:background="@drawable/viber_background">
-
 </RelativeLayout>

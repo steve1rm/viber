@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- All corner have the same 16dp radius -->
     <corners android:radius="16dp"/>
 
-    <!--          angle             -->
     <!-- 270 Start Top - End Bottom -->
     <!-- 90 Start Bottom - End Top  -->
     <gradient
         android:startColor="@color/colorViberStart"
         android:endColor="@color/colorViberEnd"
-        android:angle="270"
-        android:type="linear"/>
+        android:angle="270"/>
 </shape>

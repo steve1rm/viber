@@ -3,6 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Indigo 900 -->
     <color name="colorViberStart">#1a237e</color>
+    <!-- Primary color with some alpha for tranparency -->
     <color name="colorViberEnd">#993F51B5</color>
 </resources>
