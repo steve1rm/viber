@@ -11,26 +11,29 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="00:18"
-        android:textSize="30sp"
-        android:fontFamily="sans-serif-medium"
-        android:textStyle="bold"/>
+        android:textSize="34sp"
+        android:textColor="@color/time"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:gravity="center"
         android:text="Frano John"
-        android:textSize="30sp"
+        android:textSize="32sp"
+        android:textColor="@color/name"
         android:fontFamily="sans-serif-condensed"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:gravity="center"
         android:text="Mobile 416 555 0123"
         android:textSize="20sp"
+        android:textColor="@color/mobile"
         android:textStyle="bold"
         android:fontFamily="sans-serif-light"/>
 </LinearLayout>
