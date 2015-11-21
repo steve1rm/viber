@@ -4,5 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <!-- Indigo 500 '44' is the alpha channel for transparency low mean more transparent -->
     <color name="colorStart">#443F51B5</color>
+    <!-- Green 800 -->
+    <color name="colorGreenStart">#2e7d32</color>
+    <!-- Green 500 -->
+    <color name="colorGreenEnd">#4caf50</color>
 </resources>
