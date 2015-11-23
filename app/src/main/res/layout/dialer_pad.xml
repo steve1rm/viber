@@ -11,6 +11,7 @@
             android:layout_height="wrap_content" />
 
         <include
+            android:id="@+id/tbMute"
             layout="@layout/mute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
