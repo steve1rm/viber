@@ -4,7 +4,11 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="colorStart">#ef5350</color>
-    <color name="colorEnd">#b71c1c</color>
-    <color name="colorStartRadius">#ffcdd2</color>
+    <!-- 900 red -->
+    <color name="endCallStartColor">#B71C1C</color>
+    <!-- 500 red -->
+    <color name="endCallEndColor">#F44336</color>
+    <!-- 900 purple -->
+    <color name="endCallBorderColor">#4A148C</color>
+
 </resources>
