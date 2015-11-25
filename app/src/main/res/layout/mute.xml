@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:paddingBottom="8dp"
-    android:background="@drawable/bottom_left_border_pressed">
+    android:background="@drawable/mute_selector">
 
     <ImageView
         android:id="@+id/ivMute"
