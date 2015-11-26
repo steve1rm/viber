@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <shape android:shape="rectangle">
-            <stroke android:color="@color/colorPrimaryDark"/>
-        </shape>
-    </item>
-
-    <item android:top="-3dp" android:right="-3dp" android:left="-3dp">
+    <item android:left="-3dp" android:top="-3dp">
         <shape>
             <solid android:color="@android:color/transparent"/>
             <stroke android:width="2dp" android:color="@color/colorBorders"/>
         </shape>
+    </item>
+
+    <item android:top="12dp" android:bottom="24dp" android:right="24dp" android:left="24dp">
+        <bitmap android:src="@drawable/ic_mic_off_white_48dp"/>
     </item>
 </layer-list>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false"
-          android:drawable="@drawable/bottom_mute_left_border"/>
+        android:drawable="@drawable/right_switchgsm_border"/>
 
     <item android:state_pressed="true"
-          android:drawable="@drawable/bottom_mute_left_border_pressed">
+        android:drawable="@drawable/right_switchgsm_border_pressed">
     </item>
 </selector>

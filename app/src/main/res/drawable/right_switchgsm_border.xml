@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:left="-3dp" android:top="-3dp">
+     <item android:left="-3dp" android:top="-3dp" android:bottom="-3dp">
         <shape>
             <solid android:color="@android:color/transparent"/>
             <stroke android:width="2dp" android:color="@color/colorBorders"/>
         </shape>
+    </item>
+
+    <item android:top="12dp" android:bottom="28dp" android:right="48dp" android:left="48dp">
+        <bitmap android:src="@drawable/ic_phone_white_48dp"/>
     </item>
 </layer-list>

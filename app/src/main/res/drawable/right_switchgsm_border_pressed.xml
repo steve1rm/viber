@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:left="-3dp" android:top="-3dp" android:bottom="-3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorDialerPressed"/>
+            <stroke android:width="2dp" android:color="@color/colorBorders"/>
+            <corners android:bottomLeftRadius="12dp"/>
+        </shape>
+    </item>
+
+    <item android:top="12dp" android:bottom="28dp" android:right="48dp" android:left="48dp">
+        <bitmap android:src="@drawable/ic_phone_black_48dp"/>
+    </item>
+
+</layer-list>

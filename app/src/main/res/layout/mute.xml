@@ -8,15 +8,7 @@
         android:id="@+id/ivMute"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:paddingRight="24dp"
-        android:paddingEnd="24dp"
-        android:paddingLeft="24dp"
-        android:paddingStart="24dp"
-        android:paddingTop="12dp"
-        android:paddingBottom="24dp"
-        android:src="@drawable/ic_mic_off_white_48dp"
-        android:background="@drawable/mute_selector"
-        android:layout_gravity="center"/>
+        android:background="@drawable/mute_selector" />
 
     <TextView
         android:id="@+id/tvMute"
