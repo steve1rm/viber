@@ -20,5 +20,4 @@
         android:textColor="@android:color/white"
         android:fontFamily="sans-serif-condensed"
         android:layout_gravity="bottom|center"/>
-
 </FrameLayout>

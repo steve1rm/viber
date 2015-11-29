@@ -10,4 +10,4 @@
     android:textColor="@android:color/white"
     android:textSize="20sp"
     android:fontFamily="sans-serif-medium"
-    android:background="@drawable/end_call_button"/>
+    android:background="@drawable/end_call_selector"/>

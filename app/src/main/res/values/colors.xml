@@ -10,4 +10,11 @@
     <color name="colorDialerPressed">#995c5d63</color>
     <color name="colorBorders">#1a237e</color>
     <color name="colorChecked">#66bdbdbd</color>
+
+    <!-- 900 red -->
+    <color name="endCallStartColor">#B71C1C</color>
+    <!-- 500 red -->
+    <color name="endCallEndColor">#F44336</color>
+    <!-- 900 purple -->
+    <color name="endCallBorderColor">#4A148C</color>
 </resources>
